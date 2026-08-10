@@ -1,5 +1,4 @@
 run = True
-
 while run:
     print("press enter or type 'exit' to exit")
     height_unit = input("measurement unit of hieght(cm or m)?: ")
