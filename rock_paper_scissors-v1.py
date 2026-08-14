@@ -30,7 +30,7 @@ while run:
                 print("final result is...")
                 sleep(1)
                 print("bot's move is " + bot)
-                print("you won")
+                print("you lose")
             print("whould you like to play again")
             print("press enter to play again and type 'back' to go back")
             do_something = True
