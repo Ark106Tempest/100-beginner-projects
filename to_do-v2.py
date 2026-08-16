@@ -4,7 +4,7 @@ run = True
 
 while run:
     print("")
-    print("optiona we have")
+    print("options we have")
     print("1. add")
     print("2. remove")
     print("3. view")
