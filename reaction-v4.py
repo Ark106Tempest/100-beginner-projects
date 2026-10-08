@@ -12,7 +12,9 @@ if option == 1:
         print(c(mv))
 elif option == 2:
     seconds = float(input("second: "))
-    #minutes = int(input("minutes: ")) for future updates
+    minutes = float(input("minutes: "))
+    if minutes > 0:
+        seconds = seconds + minutes * 60
     while seconds > 0:
         delay = uf(0.75, 1.5)
         sl(delay)
